@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            padding: 20px;
+            border: 2px solid black;
+            color: black;
+            margin-left: 250px;
+            margin-top: 80px;
+            width: 60vw;
+        }
+        h2{
+            color: rgb(76, 73, 73);
+            position: relative;
+            bottom: 15px;
+        }
+        #head {
+            width: 55vw;
+            height: 5vh;
+            margin-bottom: 20px;
+        }
+        #post-blog {
+            width: 55vw;
+        }
+        #publish-btn {
+            margin-top: 10px;
+            background-color: rgb(244, 238, 238);
+        }
+        #cancel-btn {
+            margin-left: 10px;
+            background-color: rgb(244, 238, 238);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <h2>Create A Post</h2>
+
+       <input type="text" id="head" placeholder="Enter Your Heading">
+
+       <textarea name="" id="post-blog" cols="30" rows="10" placeholder="Enter Your Blog Post"></textarea>
+       <button id="publish-btn">Publish Post</button>
+       <button id="cancel-btn">Cancel Post</button>
+    </div>
+</body>
+</html>
